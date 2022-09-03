@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/bk_item"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:background="@drawable/av"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="张三"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="21"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="男"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/item_cb"
+            android:layout_width="60dp"
+            android:focusable="false"
+            android:visibility="invisible"
+            style="@style/CheckboxTheme"
+            android:layout_height="23dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

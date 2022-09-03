@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/AppBarLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Light_Blue"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    app:elevation="0dp">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/Light_Blue"
+
+        app:popupTheme="@style/AppTheme.PopupOverlay1"
+        android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/tv_title_le"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="22"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/White"
+            android:gravity="center_vertical"/>
+
+
+
+</RelativeLayout>

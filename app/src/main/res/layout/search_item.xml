@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="@drawable/bk_1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="学员ID："
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/se_tv_id"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="姓名："
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/se_tv_name"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="年龄："
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/se_tv_age"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="性别："
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/se_tv_sex"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:textColor="@color/Black"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="爱好："
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/se_tv_aihao"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="联系电话："
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/se_tv_phone"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="入学日期："
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/se_tv_date"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

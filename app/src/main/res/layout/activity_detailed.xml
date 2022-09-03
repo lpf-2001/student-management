@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".activity.DetailedActivity">
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/bk_1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="用户ID："
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/xq_id"
+                android:textColor="@color/colorGray"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="未分配"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="姓名："
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/xq_name"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="33"
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="年龄："
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/xq_age"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="20"
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="性别："
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/xq_sex"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="男"
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="爱好："
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/xq_aihao"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="唱歌"
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="联系电话："
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/xq_phone"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="11111111111"
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="入学日期："
+                android:textColor="@color/colorGray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/xq_date"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@color/colorGray"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_gobank"
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_bk"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:text="返回列表"/>
+</LinearLayout>

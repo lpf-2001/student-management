@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">学生信息管理系统</string>
+    <string name="title_home">主页</string>
+    <string name="title_search">搜索</string>
+    <string name="title_my">我的</string>
+    <string name="addinfo">添加学生信息</string>
+    <string name="select">多选</string>
+</resources>
